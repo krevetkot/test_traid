@@ -1,1 +1,0 @@
-savedcmd_dm_race_detector.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.17.0-14-generic/scripts/module.lds -o dm_race_detector.ko dm_race_detector.o dm_race_detector.mod.o .module-common.o
