@@ -20,4 +20,4 @@ clean:
 	$(MAKE) -C $(KDIR) M=$(MDIR) clean
 
 test: load
-	./test.sh
+	sudo bash ./test.sh
